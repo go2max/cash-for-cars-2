@@ -1,0 +1,8 @@
+User-agent: *
+Allow: /
+Disallow: /server/
+Disallow: /php/
+Disallow: /api/
+Disallow: /calculator.html
+
+Sitemap: https://norcalcashforcars.com/sitemap.xml

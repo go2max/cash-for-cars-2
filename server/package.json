@@ -1,0 +1,23 @@
+{
+  "name": "cash-for-cars-server",
+  "version": "2.0.0",
+  "private": true,
+  "description": "Secure backend for NorCal Cash for Cars",
+  "main": "server.js",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "start": "node server.js",
+    "check": "node --check server.js",
+    "audit:production": "npm audit --omit=dev"
+  },
+  "dependencies": {
+    "better-sqlite3": "12.11.1",
+    "dotenv": "17.4.2",
+    "express": "4.22.1",
+    "helmet": "8.2.0",
+    "morgan": "1.11.0"
+  }
+}
+
