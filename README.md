@@ -29,4 +29,4 @@ npm run check
 npm run audit:production
 ```
 
-See `DEPLOYMENT.md` and `SECURITY_ANALYTICS_REPORT.md` before public release.
+See `RELEASE_CHECKLIST.md`, `DEPLOYMENT.md`, and `SECURITY_ANALYTICS_REPORT.md` before public release.
